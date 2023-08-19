@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:iti_project/screens/category_screen.dart';
 import 'package:iti_project/screens/nav_hone.dart';
 import 'package:iti_project/screens/nav_person.dart';
 import 'package:iti_project/screens/nav_sections.dart';
@@ -16,6 +17,7 @@ class _Home_ScreenState extends State<Home_Screen> {
   static final List<Widget> _screen = <Widget>[
     Nav_Home(),
     Nav_Person(),
+    const Category_Screen(),
     const Nav_Sections(),
   ];
   @override
@@ -44,6 +46,11 @@ class _Home_ScreenState extends State<Home_Screen> {
             GButton(
               icon: Icons.person,
               text: "Account",
+              iconSize: 27,
+            ),
+            GButton(
+              icon: Icons.category,
+              text: "Categories",
               iconSize: 27,
             ),
             GButton(
