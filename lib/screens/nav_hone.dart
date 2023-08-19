@@ -141,11 +141,3 @@ Widget item(
     ),
   );
 }
-/* Text(
-                "${snapshot.data?["meal$index"][1]} Cal",
-                style: GoogleFonts.robotoCondensed(
-                  fontSize: 20,
-                  color: Colors.red,
-                  fontWeight: FontWeight.bold,
-                ),
-              ), */
